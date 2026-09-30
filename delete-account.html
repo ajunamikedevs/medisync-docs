@@ -1,29 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Account & Data Deletion - MediSync</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Account & Data Deletion - MediSync: Habit Tracker</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1d2433; background: #f8fafc; }
-    .card { background: #fff; padding: 32px; border-radius: 12px; border: 1px solid #e2e8f0; }
-    h1 { color: #0f172a; margin-top: 0; }
-    .box { background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; padding: 16px; margin: 20px 0; }
-    a { color: #2563eb; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f4f7fb;
+      color: #1d2433;
+      line-height: 1.7;
+    }
+    .wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px 18px 60px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 32px;
+      border: 1px solid #e7edf6;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
+    }
+    h1 {
+      margin-top: 0;
+      color: #0f172a;
+      font-size: 2rem;
+    }
+    h2 {
+      margin-top: 26px;
+      color: #1e293b;
+      font-size: 1.3rem;
+    }
+    p, li {
+      color: #475569;
+      font-size: 1rem;
+    }
+    ol, ul {
+      margin: 10px 0 18px 20px;
+      padding-left: 12px;
+    }
+    .email-box {
+      background: #f8fafc;
+      border-left: 4px solid #4f46e5;
+      padding: 16px 18px;
+      border-radius: 6px;
+      margin: 18px 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #4f46e5;
+      color: #fff !important;
+      padding: 10px 16px;
+      border-radius: 8px;
+      margin-top: 12px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Account & Data Deletion</h1>
-    <p>Under Google Play requirements, users can request complete deletion of their account and all associated data.</p>
-    <h2>How to Request Deletion</h2>
-    <div class="box">
-      <p>Send an email to: <a href="mailto:medisyncmedicalsolutions.com?subject=MediSync%20Account%20and%20Data%20Deletion%20Request">ajunamike@gmail.com</a></p>
-      <p>Subject: <strong>MediSync Account and Data Deletion Request</strong></p>
-      <p>Include: The email address associated with your app profile.</p>
+  <div class="wrap">
+    <div class="card">
+      <h1>Account & Data Deletion</h1>
+      <p>Under Google Play's User Data policy, users can request complete deletion of their account profile and all associated data.</p>
+
+      <h2>How to Submit a Deletion Request</h2>
+      <div class="email-box">
+        <p style="margin: 0 0 8px 0;"><strong>Support Email:</strong> <a href="mailto:medisyncmedicalsolutions@gmail.com?subject=MediSync%20Account%20and%20Data%20Deletion%20Request">medisyncmedicalsolutions@gmail.com</a></p>
+        <p style="margin: 0;"><strong>Subject Line:</strong> <code>MediSync Account and Data Deletion Request</code></p>
+      </div>
+
+      <h2>Step-by-Step Instructions</h2>
+      <ol>
+        <li>Send an email to <strong>medisyncmedicalsolutions@gmail.com</strong> from your registered email account.</li>
+        <li>Set the subject to <strong>MediSync Account and Data Deletion Request</strong>.</li>
+        <li>Provide your app account identifier or associated email address in the body of the message.</li>
+      </ol>
+
+      <h2>What Data Is Removed</h2>
+      <ul>
+        <li>User profile records and account credentials.</li>
+        <li>All synced habit records, routines, and historical logs.</li>
+      </ul>
+
+      <h2>Retention Timeline</h2>
+      <p>All associated account data and server records are permanently deleted within 30 days of receiving your verified request.</p>
+
+      <p><a class="btn" href="privacy.html">&larr; Return to Privacy Policy</a></p>
     </div>
-    <h2>Deletion Timeline</h2>
-    <p>All user authentication records and synced routine data will be permanently wiped within 30 days of request receipt.</p>
-    <p><a href="privacy.html">&larr; Return to Privacy Policy</a></p>
   </div>
 </body>
 </html>
